@@ -2,6 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/CodesUnit/DesignTimeBuild
-/bin/Debug/net5.0
-/obj/Debug/net5.0
+/.vs/
+/bin/
+/obj/
