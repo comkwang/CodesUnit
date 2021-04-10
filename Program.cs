@@ -6,7 +6,7 @@ namespace CodesUnit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Iterations.BinaryGap.Test();
         }
     }
 }

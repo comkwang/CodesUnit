@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeUnits.Arrays
+namespace CodesUnit.Arrays
 {
     class CyclicRotation
     {

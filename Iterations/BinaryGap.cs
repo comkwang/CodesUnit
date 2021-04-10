@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeUnits.Iterations
+namespace CodesUnit.Iterations
 {
     public class BinaryGap
     {
