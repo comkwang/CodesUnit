@@ -7,6 +7,7 @@ namespace CodesUnit
         static void Main(string[] args)
         {
             Iterations.BinaryGap.Test();
+            Arrays.Reverse.Test();
         }
     }
 }
