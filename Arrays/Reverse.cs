@@ -24,13 +24,22 @@ namespace CodesUnit.Arrays
             int[] b = { 1, 2, 3, 4 };
 
             ReverseMethod(a);
-            foreach (int va in a)
-                Console.Write($" {va} ");
+            for (int i = 0; i < a.Length; i++)
+            {
+                Console.Write("{0}", a[i]);
+                if (i != a.Length-1)
+                    Console.Write(",");
+            }
+
             Console.WriteLine();
 
             ReverseMethod(b);
-            foreach (int vb in b)
-                Console.Write($" {vb} ");
+            for (int i = 0; i < b.Length; i++)
+            {
+                Console.Write("{0}", b[i]);
+                if (i != b.Length-1)
+                    Console.Write(",");
+            }
 
         }
     }
